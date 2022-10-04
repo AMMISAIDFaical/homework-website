@@ -14,12 +14,12 @@ const routes: Routes = [
   {
     path: 'my-space',
     component: MySpaceComponent,
-    canActivate:[AuthGuard]
+   // canActivate:[AuthGuard]
   },
   {
     path: 'teacher-space',
     component: TeacherSpaceComponent,
-    canActivate:[AuthGuard]
+    //canActivate:[AuthGuard]
   },
   { path: 'nav-bar', component: NavBarComponent },
 ];
